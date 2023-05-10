@@ -69,7 +69,7 @@ async function main() {
             log([
                 "Project successfully created!".green,
                 "Install dependencies using npm install".blue,
-                "cd name && npm install",
+                `cd ${projectName} && npm install`,
                 "npm run dev",
                 "",
                 "see README.md".cyan
