@@ -1,0 +1,54 @@
+{
+    "common":[
+        {
+            "id":"wooden-sword",
+            "attributes": {
+                "damage":5,
+                "durabillity": 30
+            },
+            "cost": 4
+        },
+        {
+            "id":"wooden-axe",
+            "attributes": {
+                "damage":8,
+                "durabillity": 25
+            },
+            "cost": 4
+        },
+        {
+            "id":"empy-bottle",
+            "attributes": null,
+            "cost":2
+        }
+    ],
+    "rare":[
+        {
+            "id":"diamond-sword",
+            "attributes": {
+                "damage":25,
+                "durabillity": 130
+            },
+            "cost": 4
+        },
+        {
+            "id":"diamond-axe",
+            "attributes": {
+                "damage":28,
+                "durabillity": 125
+            },
+            "cost": 4
+        },
+        {
+            "id":"epic-potion",
+            "attributes": null,
+            "effects":{
+                "regeneration":{
+                    "duration":8,
+                    "force": 4
+                }
+            },
+            "cost":2
+        }
+    ]
+}

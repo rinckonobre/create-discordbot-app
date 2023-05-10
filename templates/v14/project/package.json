@@ -1,0 +1,29 @@
+{
+  "name": "v14-discord-bot-base",
+  "version": "0.0.1",
+  "description": "Template v14 discord bot",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "npm run build && node .",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc --project tsconfig.json && npm run paths",
+    "paths": "tscpaths -p tsconfig.json -s ./src -o ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.0.3",
+    "node-cron": "^3.0.2",
+    "tsconfig-paths": "^4.2.0",
+    "tscpaths": "^0.0.9"
+  },
+  "devDependencies": {
+    "@types/node": "^20.1.2",
+    "@types/node-cron": "^3.0.7",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.4"
+  }
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "id":"chocolate-bar",
+        "name": "Chocolate bar",
+        "price":5
+    },
+    {
+        "id":"soda",
+        "name": "Soda",
+        "price":8
+    },
+    {
+        "id":"juice-orange",
+        "name": "Orange juice",
+        "price":6
+    }
+]

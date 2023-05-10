@@ -1,0 +1,10 @@
+{
+    "colors":{
+        "primary":"#5865F2",
+        "secondary":"#303030",
+        "success":"#57F287",
+        "danger":"#ED4245",
+        "alert":"#FEE75C",
+        "magic":"#EB459E"
+    }
+}
