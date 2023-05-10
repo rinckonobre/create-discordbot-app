@@ -1,7 +1,7 @@
 {
   "name": "create-discordbot-app",
   "version": "0.0.1",
-  "description": "Create a magic bot app",
+  "description": "Create a discord bot app",
   "main": "dist/index.js",
   "bin": "dist/index.js",
   "scripts": {
